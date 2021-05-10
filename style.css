@@ -27,6 +27,7 @@
     background: #f5f5f5;
     font-size: 14px;
     padding: 30px;
+    font-size: 14px;
   }
   h1,
   h2,
@@ -62,11 +63,11 @@
     letter-spacing: 0.25em;
     color: #02869e;
   }
-  h2 + p {
+  h2 + p, .text {
     font-weight: 300;
     font-size: 1.5rem;
     margin-bottom: 0.25em;
-    color: #02869e;
+    color: #545E6C;
   }
   h3 {
     font-weight: 700;
@@ -108,11 +109,9 @@
     border-radius: 4px;
     color: #333;
     padding: 10px;
+    width: 300px;
   }
-  .info{
-    background: #efefef;
-    margin-left: 20px;
-  }
+
   strong {
     font-weight: 600;
     color: #3F4650;

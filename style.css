@@ -20,6 +20,11 @@
     margin: 0;
     line-height: 1.4285em;
     color: rgba(0, 0, 0, 0.87);
+    background-image:
+    linear-gradient(#98B7AF 1px, transparent 1px),
+    linear-gradient(90deg, #98B7AF 1px, transparent 1px);
+    background-size: 2em 2em;
+    background-color: white; 
   }
   body {
     font-family: 'Roboto', sans-serif;

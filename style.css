@@ -66,11 +66,13 @@
     font-weight: 300;
     font-size: 1.5rem;
     margin-bottom: 0.25em;
+    color: #02869e;
   }
   h3 {
     font-weight: 700;
     font-size: 1.25rem;
     letter-spacing: 0.15em;
+  
   }
   h4 {
     font-size: 1.125rem;
@@ -91,6 +93,9 @@
     margin: 0 0 1em;
     line-height: 1.4285em;
   }
+  .time{
+    color: #97AAC3;
+  }
   p:first-child {
     margin-top: 0;
   }
@@ -102,12 +107,15 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     color: #333;
+    padding: 10px;
   }
   .info{
     background: #efefef;
+    margin-left: 20px;
   }
   strong {
     font-weight: 600;
+    color: #3F4650;
   }
   small {
     font-size: 80%;
@@ -130,7 +138,7 @@
     -o-transition: all 0.4s ease-in-out;
   }
   ul > li::before {
-    content: "✔️";
+    content: "●";
     font-family: "Arial", sans-serif;
     float: left;
     width: 1.5em;

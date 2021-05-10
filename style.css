@@ -24,9 +24,17 @@
   body {
     font-family: 'Roboto', sans-serif;
     color: #545E6C;
-    background-color: white;
-    background-image: radial-gradient(#9ed8d3 5px, transparent 5px);
-    background-size: 30px 30px;
+    background: 
+    linear-gradient(225deg, transparent 24.5%, #449CB4 24.6%, transparent 24.8%) 37px -37px, 
+    linear-gradient(135deg, transparent 24.5%, #449CB4 24.6%, transparent 24.8%) 37px 111px, 
+    linear-gradient(135deg, transparent 24.5%, #449CB4 24.6%, transparent 24.8%) 37px 37px, 
+    linear-gradient(225deg, transparent 24.5%, #449CB4 24.6%, transparent 24.8%) 37px 37px, 
+    linear-gradient(135deg, transparent 24.5%, #449CB4 24.6%, transparent 24.8%) 74px 0px, 
+    linear-gradient(225deg, transparent 24.5%, #449CB4 24.6%, transparent 24.8%) 74px 0px, 
+    linear-gradient(135deg, transparent 24.5%, #449CB4 24.6%, transparent 24.8%) 74px 74px, 
+    linear-gradient(225deg, transparent 24.5%, #449CB4 24.6%, transparent 24.8%) 74px 74px;
+    background-size: 148px 148px;
+    background-color: #E8F4F2;
     font-size: 14px;
     padding: 30px;
     font-size: 14px;
@@ -112,7 +120,7 @@
     border-radius: 4px;
     color: #333;
     padding: 10px;
-    width: 300px;
+    width: 600px;
   }
 
   strong {

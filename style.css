@@ -111,7 +111,11 @@
     counter-reset: ol-counter;
   }
   li {
-    list-style: none outside none;
+    color: #02869e;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
   }
   ul > li::before {
     content: "●";
@@ -264,6 +268,9 @@
     background: white;
     box-shadow: 0 10px 100px 0 rgba(34, 36, 38, 0.1);
     transition: box-shadow 0.2s linear;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   }
   .page[style^="border-color"] {
     padding: 4.5em;
@@ -276,12 +283,7 @@
     top: 2em;
     right: 2em;
     bottom: 2em;
-    border-color: inherit;
-    border-width: 1em;
-    border-style: solid;
-    pointer-events: none;
-    transition: border-color 0.2s ease-in-out;
-  }
+    }
   @media only screen {
     .page:hover {
       box-shadow: 0 10px 100px 0 rgba(34, 36, 38, 0.3);
@@ -518,6 +520,7 @@
     flex: 1 0 auto;
     max-width: 15rem;
     width: 100%;
+    border-radius: 50%;
   }
   @media only screen and (max-width: 1199px) {
     .avatar-wrapper {
